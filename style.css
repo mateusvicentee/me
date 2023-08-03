@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mukta&family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-black-blue: #222831;
+    --color-neutro: #1f2229;
+    --color-white: #f5f5f5;
+    --color-white-gray: #54585f;
+    --color-bg-secundary: #5458f;
+    --color-secundary: #ef5e5e;
+    --color-gray: #3b4048;
+}
+
+body {
+    background-color: var(--color-black-blue);
+}
+
+.hamburguer {
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-size: 0;
+    display: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: var(--color-black-blue);
+}
+
+#itens {
+    display: none;
+}
+
+.title-header {
+    color: var(--color-white);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+}
+
+.link-header {
+    text-decoration: none;
+    list-style: none;
+    font-size: 23px;
+    color: var(--color-white);
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 60px;
+
+}
+
+.link-header:hover {
+    color: var(--color-secundary);
+    transition: .7s;
+}
+
+.link-header-hamburguer {
+    text-decoration: none;
+    list-style: none;
+    color: var(--color-white);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 60px;
+
+
+
+}
+
+.link-header-hamburguer:hover {
+    color: var(--color-secundary);
+    transition: .7s;
+}
+
+/* fim header */
+.container {
+    display: flex;
+    color: var(--color-white);
+    height: 60vh;
+    justify-content: center;
+    align-items: end;
+    gap: 100px;
+}
+
+.eu {
+    height: 30vh;
+    border-radius: 100%;
+}
+
+.minhas-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title {
+    font-family: 'Mukta', sans-serif;
+    font-size: 50px;
+}
+
+.txt {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid var(--color-secundary);
+    padding: 7px 20px;
+    text-decoration: none;
+    color: var(--color-secundary);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.btn:hover {
+    background-color: var(--color-secundary);
+    transition: .2s;
+    color: var(--color-black-blue);
+}
+
+.ferramentas {
+
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 150px;
+}
+
+.lingua {
+    height: 9vh;
+}
+
+/* fim ola sou  o mateus */
+
+.container2 {
+    display: flex;
+    color: var(--color-white);
+    height: 100vh;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sobre-mim {
+    background-color: var(--color-gray);
+    height: 90vh;
+    width: 40%;
+    border-radius: 20px;
+    padding: 60px;
+}
+
+.texto {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.uni {
+    width: 42%;
+    height: 80vh;
+
+}
+
+.facul {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    background-color: var(--color-gray);
+    margin-left: 200px;
+    height: 18vh;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.title-uni {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.txt-uni {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.box {
+    width: 25%;
+    height: 50vh;
+    background-color: var(--color-gray);
+    margin-right: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.title-box {
+    font-family: 'Mukta', sans-serif;
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.spannn {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    color: var(--color-white);
+
+}
+
+.maain {
+    height: 30vh;
+    justify-content: center;
+    gap: 50px;
+    transition: ease-in-out 4s;
+}
+
+.cards {
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 450px;
+    color: #b7b7b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.cards .imgg {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(/fan-1.png);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards:hover .imgg {
+
+    opacity: 1;
+    width: 450px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(/fan2.png);
+}
+
+.cards .imgg p {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Cinzel', serif;
+}
+
+.cards .contentt {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: ease-out 1s;
+    transform: rotateY(30px);
+
+}
+
+.cards:hover .contentt {
+    padding: 20px;
+    height: auto;
+    transition: ease-out 1s;
+    transform: rotateY(0);
+}
+
+.cards .contentt .titlee {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    color: #ef5e5e;
+
+}
+
+.cards .contentt .desc {
+    font-size: 14px;
+    opacity: .7;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cards .arrow {
+    padding: 15px;
+    font-size: 28px;
+    transition: ease-out 3s;
+}
+
+.cards:hover .arrow {
+    transition: ease-out 3s;
+    color: #ef5e5e;
+    transform: rotate(-180deg);
+}
+
+.cards:hover .arrow {
+
+    transition: all 3s;
+}
+
+.cards .imgg2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.434)),
+        url(/h1.png);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+
+.cards .imgg2 p {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Cinzel', serif;
+}
+
+#p2 .imgg2:hover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.434)), url(/h2.png);
+}
+
+.cards .imgg3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.492), rgba(0, 0, 0, 0.434)),
+        url(/ms1.png);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+
+.cards .imgg3 p {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Cinzel', serif;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 250px;
+
+}
+
+.redes-img {
+    height: 20px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.redes .lingua {
+    height: 40px;
+}
+
+.recomendadas {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer22 {
+    margin-top: 30px;
+    background-color: var(--color-secundary);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-top: 1px solid var(--color-secundary);
+}
+
+#mind {
+    display: flex;
+}
+
+#form {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-secundary);
+    width: 3px;
+    height: 3px;
+}
+
+@media(max-width:600px) {
+    body {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    #hd {
+        display: flex;
+        background-color: transparent;
+        width: 100%;
+    }
+
+    #hd .title-header {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .hamburguer {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        gap: 10px;
+    }
+
+    .container img {
+        height: 170px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .txt {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .ferramentas {
+        gap: 0;
+        margin: 0;
+        height: 160px;
+    }
+
+    .lingua {
+        height: 50px;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .sobre-mim {
+        width: 80%;
+        padding: 20px;
+        height: auto;
+        font-size: 10px;
+        margin: 0;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #sobremim {
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    }
+
+    .sobre-mim p {
+        height: auto;
+        font-size: 13px;
+    }
+
+    .uni {
+        display: none;
+    }
+
+    .container2 {
+        height: auto;
+        width: auto;
+    }
+
+    .box {
+        width: 70%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    #mind {
+        display: none;
+    }
+
+    .cards {
+        width: 300px;
+        margin-bottom: 80px;
+    }
+
+    .container3 {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .container3 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .container3 img {
+        display: none;
+    }
+
+    .redes {
+        margin: 0;
+        gap: 10px;
+    }
+
+    .footer22 {
+        width: auto;
+    }
+}
+
+@media(max-width:900px) {
+    body {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    #hd {
+        display: flex;
+        background-color: transparent;
+        width: 100%;
+    }
+
+    #hd .title-header {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .hamburguer {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        gap: 10px;
+    }
+
+    .container img {
+        height: 170px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .txt {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .ferramentas {
+        gap: 0;
+        margin: 0;
+        height: 160px;
+    }
+
+    .lingua {
+        height: 50px;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .sobre-mim {
+        width: 80%;
+        padding: 20px;
+        height: auto;
+        font-size: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #sobremim {
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    }
+
+    .sobre-mim p {
+        height: auto;
+        font-size: 13px;
+    }
+
+    .uni {
+        display: none;
+    }
+
+    .container2 {
+        height: auto;
+        width: auto;
+    }
+
+    .box {
+        width: 70%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    #mind {
+        display: none;
+    }
+
+    .cards {
+        width: 300px;
+        margin-bottom: 80px;
+    }
+
+    .container3 {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .container3 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .container3 img {
+        display: none;
+    }
+
+    .redes {
+        margin: 0;
+        gap: 10px;
+    }
+
+    .footer22 {
+        width: auto;
+    }
+}
+
+@media(max-width:1499px) {
+    #hd {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+
+    #hd .title-header {
+        margin: 0;
+    }
+
+    #hd .link-header {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .ferramentas {
+        gap: 60px;
+    }
+
+    .sobre-mim{
+        width: 50%;
+    } 
+    .sobre-mim p {
+        font-size: 14px;
+    }
+
+    .sobre-mim h1 {
+        font-size: 20px;
+    }
+
+    .uni {
+        height: auto;
+        width: auto;
+    }
+
+    .title-uni {
+        font-size: 18px;
+    }
+
+    .container2 {
+        margin: 0;
+        padding: 20px;
+        height: auto;
+    }
+    .box{
+        width: auto;
+        height: auto;
+    }
+    #ani{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
